@@ -1,0 +1,77 @@
+{
+  "name": "webcrawler",
+  "version": "0.4.3",
+  "description": "Crawler is a web spider written with Nodejs. It gives you the full power of jQuery on the server to parse a big number of pages as they are downloaded, asynchronously. Scraping should be simple and fun!",
+  "keywords": [
+    "dom",
+    "javascript",
+    "crawling",
+    "spider",
+    "scraper",
+    "scraping",
+    "jquery",
+    "crawler"
+  ],
+  "maintainers": [
+    "Sylvain Zimmer <sylvain@sylvainzimmer.com> (http://sylvinus.org/)",
+    "Paul Valla <bonjour@pol.ninja> (http://www.pol.ninja/)"
+  ],
+  "bugs": {
+    "url": "http://github.com/sylvinus/node-crawler/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/sylvinus/node-crawler/blob/master/LICENSE.txt"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sylvinus/node-crawler.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.18.0",
+    "cookie-parser": "^1.4.3",
+    "crawler": "^0.4.3",
+    "debug": "^2.2.0",
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
+    "generic-pool": "^2.1.1",
+    "iconv": "*",
+    "iconv-lite": "^0.4.4",
+    "jschardet": "^1.1.0",
+    "lodash": "^2.4.1",
+    "mongodb": "^2.1.21",
+    "morgan": "^1.7.0",
+    "mysql": "^2.10.2",
+    "mysql-server": "^1.0.5",
+    "node-gyp": "^3.3.1",
+    "request": "^2.42.0",
+    "restify": "^4.1.1",
+    "serve-favicon": "^2.3.0"
+  },
+  "optionalDependencies": {
+    "iconv": "*"
+  },
+  "devDependencies": {
+    "chai": "1.9.2",
+    "mocha": "2.2.1",
+    "mocha-testdata": "1.1.0",
+    "sinon": "1.11.1",
+    "jsdom": "3.1.1"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --reporter spec --bail --timeout 10000 tests/*.js"
+  },
+  "engines": [
+    "node >=0.8.x"
+  ],
+  "directories": {
+    "test": "tests"
+  },
+  "main": "./lib/crawler",
+  "homepage": "https://github.com/sylvinus/node-crawler#readme",
+  "author": "c",
+  "license": "MIT"
+}
